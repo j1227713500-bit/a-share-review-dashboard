@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light"><title>复盘看板</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div id="app"><div class="loading">正在打开复盘看板…</div></div>
+  <div id="tooltip" role="tooltip" hidden></div>
+  <section id="themeLadder" role="dialog" aria-label="题材近15日高度天梯" hidden></section>
+  <div id="toast" role="status" aria-live="polite" hidden></div>
+  <dialog id="modal"></dialog>
+  <input id="fileInput" type="file" accept=".xls,.xlsx" multiple hidden>
+  <script type="module" src="/app.js"></script>
+</body>
+</html>

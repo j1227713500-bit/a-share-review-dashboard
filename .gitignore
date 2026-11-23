@@ -1,0 +1,14 @@
+.DS_Store
+.env
+.env.*
+secrets.env
+data/
+test-results/
+__pycache__/
+*.py[cod]
+*.log
+*.xls
+*.xlsx
+.idea/
+.vscode/
+
